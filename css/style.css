@@ -99,9 +99,16 @@ html, body {
     color: var(--dark-gray);
 }
 
+.project-link a {
+    color: var(--accent-color);
+    font-family: 'Domine', serif;
+    font-size: 18px;
+}
+
 .project-title {
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
 }
 
 .project-description {
@@ -156,6 +163,9 @@ img {
         order: 2;
         width: 100%;
     }
+    .project-link a {
+        font-size: 12px;
+    }
     .project-description {
         font-size: 12px;
         line-height: 18px;
@@ -187,6 +197,9 @@ img {
         order: 2;
         width: 100%;
     }
+    .project-link a {
+        font-size: 12px;
+    }
     .project-description {
         font-size: 12px;
         line-height: 18px;
@@ -216,6 +229,9 @@ img {
     .project-image {
         width: 50%;
     }
+    .project-link a {
+        font-size: 14px;
+    }
     .project-description {
         font-size: 14px;
         line-height: 20px;
@@ -234,6 +250,9 @@ img {
     }
     .project-title {
         font-size: 30px;
+    }
+    .project-link a {
+        font-size: 16px;
     }
     .project-description {
         font-size: 16px;
